@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: kleeat-ambulance-ufe-content
+spec:
+  microFrontend: kleeat-ambulance-ufe
+  element: kleeat-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?kleeat-ambulance-wl(/.*)?$"
