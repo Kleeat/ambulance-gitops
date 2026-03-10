@@ -4,7 +4,10 @@ metadata:
   name: kleeat-ambulance-ufe-content
 spec:
   microFrontend: kleeat-ambulance-ufe
-  element: kleeat-ambulance-wl-list
+  element: kleeat-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /kleeat-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
