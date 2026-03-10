@@ -6,8 +6,12 @@ spec:
   microFrontend: kleeat-ambulance-ufe
   element: kleeat-ambulance-wl-app
   attributes:
+    - name: api-base
+      value: http://localhost:5000/api
+    - name: ambulance-id
+      value: bobulova
     - name: base-path
-      value: /kleeat-ambulance-wl/
+      value: ./kleeat-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
