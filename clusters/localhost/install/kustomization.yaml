@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/kleeat-ambulance-ufe
+- ../../../apps/kleeat-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/Kleeat/ambulance-webapi//deployments/kustomize/components/mongodb
