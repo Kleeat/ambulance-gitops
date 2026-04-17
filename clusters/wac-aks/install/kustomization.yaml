@@ -12,7 +12,7 @@ labels:
 
 resources:
 - ../../../apps/kleeat-ambulance-ufe
-- ../../../apps/<pfx>-ambulance-webapi
+- ../../../apps/kleeat-ambulance-webapi
 
 
 components:
