@@ -14,5 +14,5 @@ spec:
       value: ./kleeat-ambulance-wl/
   displayRules:
     - allOf:
-      - context-name: main-content
-      - path: "^(\\.?/)?kleeat-ambulance-wl(/.*)?$"
+        - context-name: main-content
+        - path: "^(\\.?/)?kleeat-ambulance-wl(/.*)?$"

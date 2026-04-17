@@ -1,9 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
-- name: kleeat/ambulance-ufe
-  newName: kleeat/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
-  newTag: main.20260417.1059 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
-- name: kleeat/ambulance-wl-webapi
-  newName: kleeat/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
-  newTag: main.20260417.0024 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+  - name: kleeat/ambulance-ufe
+    newName: kleeat/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
+    newTag: main.20260417.1059 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+  - name: kleeat/ambulance-wl-webapi
+    newName: kleeat/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+    newTag: main.20260417.0024 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}

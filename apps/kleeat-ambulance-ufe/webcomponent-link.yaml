@@ -20,6 +20,6 @@ spec:
   priority: 10
   displayRules: # pravidlá, kde sa má element vložiť v obálke
     - anyOf:
-      - context-name: applications
-      - context-name: rail-content
-      - context-name: drawer-content
+        - context-name: applications
+        - context-name: rail-content
+        - context-name: drawer-content
