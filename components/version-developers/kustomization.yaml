@@ -6,4 +6,4 @@ images:
   newTag: main.20260320.2104 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
 - name: kleeat/ambulance-wl-webapi
   newName: kleeat/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
-  newTag: main.20260331.1324 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+  newTag: main.20260417.0024 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
